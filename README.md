@@ -16,3 +16,6 @@ Private keys generate on Yubikey
 
 ## CA
 Use XCA or OpenSSL to create CA 
+
+## Hardening
+Use random managemnt keys that are discarded after use
