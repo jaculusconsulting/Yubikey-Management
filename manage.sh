@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 
-CA_KEY_FILE = "jcca.key"
-CA_CRT_FILE = "jcca.crt"
+CA_KEY_FILE="ca.key"
+CA_CRT_FILE="ca.crt"
 
 function requirements() {
     which yubico-piv-tool > /dev/null
